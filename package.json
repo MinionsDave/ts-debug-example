@@ -1,0 +1,28 @@
+{
+  "name": "ts-debug-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha -r ts-node/register src/**/*.spec.ts --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MinionsDave/ts-debug-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MinionsDave/ts-debug-example/issues"
+  },
+  "homepage": "https://github.com/MinionsDave/ts-debug-example#readme",
+  "devDependencies": {
+    "@types/chai": "^4.0.2",
+    "@types/mocha": "^2.2.41",
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.4.2"
+  }
+}
